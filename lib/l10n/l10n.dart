@@ -1470,6 +1470,16 @@ class ApLocalizations {
     );
   }
 
+  /// `歷年成績`
+  String get transcript {
+    return Intl.message(
+      '歷年成績',
+      name: 'transcript',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `缺曠系統`
   String get leave {
     return Intl.message(

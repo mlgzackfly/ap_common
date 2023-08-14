@@ -95,6 +95,16 @@ class ApIcon {
     }
   }
 
+  static IconData get transcript {
+    switch (ApIcon.code) {
+      case ApIcon.filled:
+        return Icons.history_edu;
+      case ApIcon.outlined:
+      default:
+        return Icons.history_edu_outlined;
+    }
+  }
+
   static IconData get accountCircle {
     switch (ApIcon.code) {
       case ApIcon.filled:
