@@ -175,6 +175,16 @@ class ApIcon {
     }
   }
 
+  static IconData get report {
+    switch (ApIcon.code) {
+      case ApIcon.filled:
+        return Icons.flag_circle;
+      case ApIcon.outlined:
+      default:
+        return Icons.flag_circle_outlined;
+    }
+  }
+
   static IconData get settings {
     switch (ApIcon.code) {
       case ApIcon.filled:
